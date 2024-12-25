@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", serif;
+}
+
+body{
+    background: #F5F5F5;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+    cursor: pointer;
+}
+
+h1{
+    color: #1f2531;
+    font-size: 37px;
+}
+
+h2{
+    color: #85693e;
+    font-size: 30px;
+}
+
+p{
+    padding-top: 7px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.container{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.btn{
+    background: rgba(246, 239, 239, 0.58);
+    color: #212121;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+}
+
+.caption{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.borders_dark{
+    border-bottom: 1px solid #2d2f3a;
+    border-top: 1px solid #2d2f3a;
+}
+
+.borders_light{
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+}
+
+
+/* ----- media query ------- */
+
+@media (max-width: 1200px) {
+    .container{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .btn{
+        padding: 14px 22px;
+    }
+}

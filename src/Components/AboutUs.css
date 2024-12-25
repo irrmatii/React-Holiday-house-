@@ -1,0 +1,130 @@
+.about{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom,  white, lightgrey);
+    position: relative;
+    z-index: -2;
+}
+
+.about::after{
+    content: "";
+    position: absolute;
+    background-image:
+            url("https://static.vecteezy.com/system/resources/thumbnails/023/546/251/small_2x/flying-green-leaves-on-transparent-background-fresh-spring-foliage-environment-and-ecology-backdrop-png.png"),
+            url("https://static.vecteezy.com/system/resources/thumbnails/044/427/736/small_2x/green-floating-leaves-flying-leaves-green-leaf-dancing-png.png");
+    filter: drop-shadow(-8px 8px 16px hsla(34, 51%, 8%, .4));
+    background-position: 48% 38%, 25% 4%;
+    background-size: 480px, 580px;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    background-blend-mode: normal;
+    width: 100%; /* Full width of the parent */
+    height: 100%; /* Full height of the parent */
+    z-index: -1;
+}
+
+.about::before{
+    content: "";
+    position: absolute;
+    background-image:
+            url("https://static.vecteezy.com/system/resources/thumbnails/023/546/251/small_2x/flying-green-leaves-on-transparent-background-fresh-spring-foliage-environment-and-ecology-backdrop-png.png");
+    filter: drop-shadow(-8px 8px 16px hsla(34, 51%, 8%, .4));
+    background-position: 99% 63%;
+    transform: rotate(65deg);
+    background-size: 440px;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    background-blend-mode: normal;
+    width: 100%; /* Full width of the parent */
+    height: 100%; /* Full height of the parent */
+    z-index: -1;
+}
+
+.info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    gap: 80px;
+}
+
+.about-info{
+    flex-grow: 2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /*text-align: center;*/
+    gap: 10px;
+    justify-content: space-between;
+}
+
+
+.about-text{
+    max-width: 50%;
+    width: 100%;
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.empty{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.margin-l{
+    margin-left: 40px;
+}
+
+.provide_text{
+    margin-bottom: 30px;
+}
+
+.house_info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.houseImg{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap:4px;
+}
+
+.tree_house{
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(-8px 30px 80px hsla(64, 51%, 20%, .4));
+}
+
+.circle_img{
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(-8px 8px 16px hsla(34, 51%, 8%, .4));
+}
+
+.img_1{
+    background-image: url('https://www.cairnsholidayspecialists.com.au/shared_resources/media/canopy-treehouse-accommodation-39925_1280x853.jpg');
+}
+
+.img_2{
+    background-image: url("https://i.ytimg.com/vi/13-7Y8eFkwY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCcYejv8kDEbL5w5Q5FgRZvol8Xgw");
+    background-position: center;
+}
+
+.img_3{
+    background-image: url("https://travellingtam.com/wp-content/uploads/2021/03/treehouses-in-Australia-1024x683.jpg");
+}
