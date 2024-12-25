@@ -73,12 +73,22 @@
     flex-direction: column;
 }
 
-.empty{
+.empty,
+.middle-image,
+.hide{
     width: 50%;
     height: auto;
-    display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.empty,
+.middle-image{
+    display: flex;
+}
+
+.hide{
+    display: none;
 }
 
 .margin-l{
@@ -128,3 +138,23 @@
 .img_3{
     background-image: url("https://travellingtam.com/wp-content/uploads/2021/03/treehouses-in-Australia-1024x683.jpg");
 }
+
+@media (max-width: 900px) {
+    .about::after{
+        background-image: none;
+    }
+    .about::before{
+        background-image: none;
+    }
+    .about-info{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .middle-image{
+        display: none;
+    }
+    .hide{
+        display: flex;
+    }
+}
+

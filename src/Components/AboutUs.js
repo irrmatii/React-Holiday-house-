@@ -28,13 +28,14 @@ const AboutUs = () => {
                     </div>
                 </div>
                 <div className="about-info">
-                    <div className="empty">
+                    <div className="middle-image">
                         <img className="circle_img" src={image3} alt=""/>
                     </div>
                     <div className="about-text">
                         <div className="provide_text">
                             <h2>What we provide?</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci corporis dignissimos dolore enim laboriosam molestiae natus nisi nobis quidem quo, sint vero.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci corporis dignissimos
+                                dolore enim laboriosam molestiae natus nisi nobis quidem quo, sint vero.</p>
                         </div>
                         <div className="house_info">
                             <div>
@@ -57,6 +58,9 @@ const AboutUs = () => {
                                     repudiandae vitae. Autem?</p>
                             </div>
                         </div>
+                    </div>
+                    <div className="hide">
+                        <img className="circle_img" src={image3} alt=""/>
                     </div>
                 </div>
                 <div className="about-info">
