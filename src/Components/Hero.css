@@ -1,7 +1,7 @@
 .hero {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(10,0,20,0.7), rgba(10,0,20,0.7)), url("https://files.oaiusercontent.com/file-5vUqrRCYfk85LgxeM5qi5C?se=2024-12-18T16%3A13%3A22Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D632e6cb7-988d-4322-8bb2-e19bc796eac9.webp&sig=mfMMC5EabXRRCZOOJoMisP2yxhHNAGaBUborQz8oURM%3D");
+    background: linear-gradient(rgba(10,0,20,0.7), rgba(10,0,20,0.7)), url("./assets/cover image.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

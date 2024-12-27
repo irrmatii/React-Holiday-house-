@@ -24,12 +24,14 @@ const Navbar = () => {
         <nav className={`container ${sticky ? 'dark_nav' : ''}`}>
             <img className="logo" src={logo} alt=""/>
             <ul className={mobileMenu ? '': 'hide-mobile-menu'}>
-                <li><Link to='#Hero' smooth={true} offset={0} duration={500}>Home</Link></li>
-                <li><Link to='#AboutUs' smooth={true} offset={0} duration={500}>About us</Link></li>
-                <li><Link to='#Gallery' smooth={true} offset={0} duration={500}>Gallery</Link></li>
-                <li><Link to='#Prices' smooth={true} offset={0} duration={500}>Prices</Link></li>
+                <li className="hover_line"><Link to='#Hero' smooth={true} offset={0} duration={500}>Home</Link></li>
+                <li className="hover_line"><Link to='#AboutUs' smooth={true} offset={0} duration={500}>About us</Link></li>
+                <li className="hover_line"><Link to='#Gallery' smooth={true} offset={0} duration={500}>Gallery</Link></li>
+                <li className="hover_line"><Link to='#Prices' smooth={true} offset={0} duration={500}>Prices</Link></li>
                 <li>
-                    <button className="btn">Reservation</button>
+                    <Link to='#Reservation' smooth={true} offset={0} duration={500}>
+                        <button className="btn">Reservation</button>
+                    </Link>
                 </li>
             </ul>
             <svg onClick={toggleMenu} className="menu" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24">

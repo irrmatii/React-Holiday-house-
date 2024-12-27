@@ -4,6 +4,8 @@ import Hero from "./Components/Hero";
 import AboutUs from "./Components/AboutUs";
 import Gallery from "./Components/Gallery";
 import Prices from "./Components/Prices";
+import Reservation from "./Components/Reservation";
+import Footer from "./Components/Footer";
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
         <AboutUs/>
         <Gallery/>
         <Prices/>
+        <Reservation/>
+        <Footer/>
     </div>
   );
 }

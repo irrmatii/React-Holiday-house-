@@ -1,0 +1,108 @@
+.reservation {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(10,0,20,0.7), rgba(10,0,20,0.7)), url("./assets/cover image.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.res_caption{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.res_caption h1{
+    color: lightgrey;
+}
+
+.res-form{
+    max-width: 80%;
+    height: 500px;
+    background-color: rgba(77, 81, 105, 0.63);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.res-col{
+    flex-basis: 45%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.res-col h2{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.res-col p{
+    text-align: center;
+}
+
+.res-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 ;
+}
+
+.mail{
+    margin-left: 20px;
+}
+
+.contact{
+    margin-right: 15px;
+}
+
+.j-between{
+    justify-content: space-between;
+}
+
+
+.contact_info{
+    margin-bottom: 30px;
+}
+
+.res-col input,
+.res-col textarea{
+    display: block;
+    width: 100%;
+    background: rgba(246, 239, 239, 0.58);
+    color: #212121;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    resize: none;
+    font-size: 16px;
+}
+
+@media (max-width: 750px){
+    .res-form{
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 70px;
+    }
+}
+
+
+

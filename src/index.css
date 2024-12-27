@@ -48,6 +48,12 @@ p{
     cursor: pointer;
     border: 0;
     outline: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.btn:hover{
+    background-color: rgba(77, 81, 105, 0.63);
+    color: white;
 }
 
 .caption{
@@ -67,6 +73,32 @@ p{
 .borders_light{
     border-bottom: 1px solid lightgrey;
     border-top: 1px solid lightgrey;
+}
+
+.hover_line{
+    position: relative;
+    transition: 0.7s ease-in-out;
+}
+
+.hover_line:hover {
+    transform:scale(1.1);
+}
+
+.hover_line::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: white;
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: width 0.5s ease-in-out;
+}
+
+.hover_line:hover::after {
+    width: 100%;
 }
 
 

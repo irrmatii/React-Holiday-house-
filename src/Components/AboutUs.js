@@ -3,6 +3,7 @@ import './AboutUs.css'
 import image1 from './assets/Designer__1_-removebg-preview.png'
 import image2 from './assets/Designer__8_-removebg-preview.png'
 import image3 from './assets/Designer__11_-removebg-preview.png'
+import image4 from './assets/about_small.png'
 
 const AboutUs = () => {
     return (
@@ -25,6 +26,9 @@ const AboutUs = () => {
                     </div>
                     <div className="empty margin-l">
                         <img className="circle_img" src={image1} alt=""/>
+                    </div>
+                    <div className="hide">
+                        <img className="circle_img" src={image4} alt=""/>
                     </div>
                 </div>
                 <div className="about-info">
@@ -60,15 +64,18 @@ const AboutUs = () => {
                         </div>
                     </div>
                     <div className="hide">
-                        <img className="circle_img" src={image3} alt=""/>
+                        <img className="circle_img" src={image4} alt=""/>
                     </div>
                 </div>
                 <div className="about-info">
                     <div className="about-text">
-                        <h2>Where to find us?</h2>
+                    <h2>Where to find us?</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda consequuntur
                             eaque nam praesentium, qui rem saepe? Necessitatibus quos, reprehenderit?</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et laborum nam sunt. Deleniti doloribus nemo tenetur. Alias consequatur delectus dolorum eius itaque iure iusto laboriosam, laudantium libero magni molestiae natus, nesciunt, officiis quos repellat reprehenderit!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et laborum nam sunt. Deleniti
+                            doloribus nemo tenetur. Alias consequatur delectus dolorum eius itaque iure iusto
+                            laboriosam, laudantium libero magni molestiae natus, nesciunt, officiis quos repellat
+                            reprehenderit!</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, natus.</p>
                     </div>
                     <div className="empty margin-l">
