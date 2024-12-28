@@ -27,8 +27,8 @@ import pine7 from './assets/pine7.png'
 
 const Gallery = () => {
 
+    // toggle menu
     const [display, setDisplay] = useState("section1")
-
     function showSection (value){
         setDisplay(value)
     }
@@ -39,6 +39,7 @@ const Gallery = () => {
         imageMenu ? setImageMenu(false) : setImageMenu(true);
         console.log("clicked");
     }
+
 
 
     return (

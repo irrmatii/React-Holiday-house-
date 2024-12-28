@@ -24,6 +24,7 @@
     width: 100%; /* Full width of the parent */
     height: 100%; /* Full height of the parent */
     z-index: 1;
+    animation: none;
 }
 
 .image-menu{

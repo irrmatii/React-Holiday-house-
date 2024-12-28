@@ -1,10 +1,22 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './Prices.css'
 import heaven from './assets/img for price.png'
 import forest from './assets/Designer.jpeg'
 import pine from './assets/pine.jpeg'
 
 const Prices = () => {
+
+    const allColors = ["white", "#a6b7f5", "#f3ed9d", "#8ab285", "#b09366", "#c9afaf"]
+    const [color, setColor] = useState("white")
+
+    useEffect(() => {
+        setInterval(() => {
+            const randInndex = Math.floor(Math.random() * allColors.length)
+            setColor(allColors[randInndex]);
+        }, 3000);
+    })
+
+
     return (
         <div className="prices container" id="Prices">
             <div className="caption borders_light">
@@ -16,7 +28,7 @@ const Prices = () => {
                         <img
                             src={heaven} alt=""
                             className="mainImg"/>
-                        <div className="deal">Price per night: 200$</div>
+                        <div className="deal" style={{color: color}}>Price per night: 200$</div>
                     </div>
                     <div className="house_info">
                         <div>
@@ -49,7 +61,7 @@ const Prices = () => {
                         <img
                             src={forest} alt=""
                             className="mainImg"/>
-                        <div className="deal">Price per night: 300$</div>
+                        <div className="deal" style={{color: color}}>Price per night: 300$</div>
                     </div>
                     <div className="house_info">
                         <div>
@@ -85,7 +97,7 @@ const Prices = () => {
                         <img
                             src={pine} alt=""
                             className="mainImg"/>
-                        <div className="deal">Price per night: 250$</div>
+                        <div className="deal" style={{color: color}}>Price per night: 250$</div>
                     </div>
                     <div className="house_info">
                         <div>
